@@ -5,7 +5,7 @@ export default function Section (props) {
         <section className={styles.section}>
             <img src={props.sectionImage} alt={`${props.sectionTitle} image`} />
             <h2>{props.sectionTitle}</h2>
-            <p>{props.children}</p>
+            <p>{props.sectionContent}</p>
         </section>
     )
 }
