@@ -1,0 +1,7 @@
+.section {
+    flex: 1;
+}
+
+.section img {
+    width: 50%;
+}
